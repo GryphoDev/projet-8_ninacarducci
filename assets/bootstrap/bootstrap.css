@@ -443,6 +443,7 @@ legend + * {
 }
 */
 ::-webkit-search-decoration {
+  appearance: none;
   -webkit-appearance: none;
 }
 
@@ -460,6 +461,7 @@ legend + * {
 
 ::-webkit-file-upload-button {
   font: inherit;
+  appearance: button;
   -webkit-appearance: button;
 }
 
