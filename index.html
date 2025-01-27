@@ -13,6 +13,25 @@
       content="Photographe professionnelle spécialisée en portraits, photos de mariage et reportages photo. Immortalisez vos instants précieux avec des prises de vue uniques."
     />
 
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/images/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+
     <!-- Open Graph / Facebook & LinkedIn -->
     <meta property="og:type" content="website" />
     <meta
@@ -109,30 +128,30 @@
     <script src="./assets/scripts.js" defer></script>
   </head>
   <body>
-    <nav class="top-header">
-      <h1 class="name">Nina Carducci</h1>
-      <div class="nav">
-        <ul>
-          <li><a href="#about">À propos</a></li>
-          <li><a href="#gallery">Galerie</a></li>
-          <li><a href="#services">Service</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li>
-            <a
-              class="social-link"
-              href="https://www.instagram.com/ninacarducci.photo/?hl=fr"
-              target="_blank"
-              ><img
-                src="assets/images/instagram.png"
-                alt="Lien Instagram"
-                width="20px"
-                height="20px"
-            /></a>
-          </li>
-        </ul>
-      </div>
-    </nav>
     <header id="header">
+      <nav class="top-header">
+        <h1 class="name">Nina Carducci</h1>
+        <div class="nav">
+          <ul>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#gallery">Galerie</a></li>
+            <li><a href="#services">Service</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li>
+              <a
+                class="social-link"
+                href="https://www.instagram.com/ninacarducci.photo/?hl=fr"
+                target="_blank"
+                ><img
+                  src="assets/images/instagram.png"
+                  alt="Lien Instagram"
+                  width="20px"
+                  height="20px"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
       <div
         id="carouselExampleIndicators"
         class="carousel slide"
@@ -207,7 +226,7 @@
       </div>
     </header>
     <main>
-      <div id="about">
+      <section id="about">
         <div class="picture left">
           <img
             src="./assets/images/nina.webp"
@@ -218,7 +237,7 @@
         <div id="about-me">
           <h2 class="about-me__title">A propos de moi</h2>
 
-          <h3 class="about-me__introduction">
+          <p class="about-me__introduction">
             Devenir photographe professionnel était une évidence pour moi.
             Chaque séance photo est une opportunité de capturer une émotion
             unique et d'immortaliser des instants précieux. Que ce soit un
@@ -226,7 +245,7 @@
             photographier la beauté des moments authentiques. Mes prises de vue,
             qu'elles soient en couleur ou en noir-et-blanc, racontent des
             histoires qui resteront gravées à jamais.
-          </h3>
+          </p>
           <p>
             Nous passons notre vie à chercher le bonheur, et lorsque nous y
             touchons, nous n’avons qu’une envie : le figer au travers de
@@ -239,8 +258,8 @@
             yeux sur vos photos.
           </p>
         </div>
-      </div>
-      <div id="gallery">
+      </section>
+      <section id="gallery">
         <h2 class="title">Portfolio</h2>
         <div class="container py-3">
           <div class="gallery" style="display: none">
@@ -323,8 +342,8 @@
             <figcaption class="quote__author">- Richard Avedon</figcaption>
           </figure>
         </div>
-      </div>
-      <div id="services">
+      </section>
+      <section id="services">
         <h2 class="title">Mes services</h2>
         <div class="container">
           <div class="service">
@@ -369,8 +388,8 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="quote">
+      </section>
+      <aside class="quote">
         <figure>
           <blockquote>
             <p class="quote__text">
@@ -381,7 +400,7 @@
           </blockquote>
           <figcaption class="quote__author">- Richard Avedon</figcaption>
         </figure>
-      </div>
+      </aside>
     </main>
     <footer id="contact">
       <div class="container">
